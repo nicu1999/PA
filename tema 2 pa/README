@@ -1,0 +1,18 @@
+Rosca Nicolae 322
+
+Problema 1: La aceasta problema, ca la toate celelalte, am folosit skeletul oferit de
+de echipa de PA si clasa MyScanner.
+Se incearca prin-tru binary search umplerea array-ului ce reprezinta orasele blocate, iar
+verificarea se face printr-un dfs ce verifica daca se poatea ajunge de la robin pana
+la vre-un lord.
+
+Problema 2: In aceasta problema sa foloseste din nou un dfs, dar de data intr-un mod
+diferit. Primul dfs este initializat cu sursa. Apoi pentru fiecare copil al nodului
+sursa din dfs se verifica daca se poate ajunge din nodul sursa pana la un drum
+ce duce spre nodul destinatrie. In caz afirmatic se verifica daca se poate relaxa
+prin noul drum muchia. Rezultatul este ca in array-ul distance avem distanta de la
+sursa la fiecare nod, de unde la sfarsitul succesiunilor de dfs rezulta 
+rezultatul final.
+
+Problema 3: In aceasta problema a fost folosit un simplu dikstra, putin modificat pentru
+problema respectiva, in care nu se aduna costul total, ci se scande.

@@ -1,0 +1,16 @@
+Starting audit...
+[WARN] /home/nicu/facultate/pa/tema1/test/./Gard.java:74:17: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Gard.java:79:13: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Gard.java:83:17: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bani.java:8: Wrong lexicographical order for 'java.util.ArrayList' import. Should be before 'java.util.Scanner'. [CustomImportOrder]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bani.java:9: Wrong lexicographical order for 'java.util.Collections' import. Should be before 'java.util.Scanner'. [CustomImportOrder]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bani.java:50:27: Should use uppercase 'L'. [UpperEll]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bani.java:52:31: Should use uppercase 'L'. [UpperEll]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bani.java:99:46: Should use uppercase 'L'. [UpperEll]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bomboane.java:9: Wrong lexicographical order for 'java.util.ArrayList' import. Should be before 'java.util.StringTokenizer'. [CustomImportOrder]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bomboane.java:10: Wrong lexicographical order for 'java.util.Collections' import. Should be before 'java.util.StringTokenizer'. [CustomImportOrder]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bomboane.java:44: Distance between variable 'x' declaration and its first usage is 7, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value). [VariableDeclarationUsageDistance]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bomboane.java:44: Distance between variable 'y' declaration and its first usage is 8, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value). [VariableDeclarationUsageDistance]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bomboane.java:46: Distance between variable 'r' declaration and its first usage is 4, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value). [VariableDeclarationUsageDistance]
+[WARN] /home/nicu/facultate/pa/tema1/test/./Bomboane.java:52: Distance between variable 'bomboane' declaration and its first usage is 7, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value). [VariableDeclarationUsageDistance]
+Audit done.
